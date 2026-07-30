@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Datasets baixados (grandes, reproduzíveis via build_index.py)
+datasets/
+
+# Índice FAISS e embeddings (grandes, reproduzíveis via build_index.py)
+vector_store/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Ambientes/configuração local
+.env
+.vscode/
+.idea/
